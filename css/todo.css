@@ -73,3 +73,21 @@ body{
  width: 20px;
 }
 
+@media(max-width:500px){
+  .grid__item{
+    display: grid;
+    grid-template-columns: 55% 43% ;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top:10px ;
+    align-items: center;
+    border-bottom: 1ox solid #000;
+    padding-bottom: 50px;
+  }
+  .btn_todo{
+    padding: 10px  100%;
+    border-radius: 10px 0;
+    border: none;
+  }
+}
+
