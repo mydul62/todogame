@@ -1,0 +1,37 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main_header{
+  text-align: center;
+}
+.container{
+  background: #e0d9d9;
+  border-bottom: 1px solid #000;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top:10px ;
+  align-items: center;
+}
+#input_todo,#todo_date{
+  font-size: 15px;
+  padding: 10px 5px;
+
+}
+.btn_todo{
+  background-color: #143611;
+  border-radius: 10px;color: #fff;
+  padding: 10px  0;
+  border-radius: 10px 0;
+  border: none;
+}
+.btn_f_todo{
+  color: #fff;
+  background: #5c0808;
+  padding: 10px ;
+  border-radius: 10px 0;
+  border: none;
+}
