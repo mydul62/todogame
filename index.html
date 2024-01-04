@@ -7,15 +7,19 @@
   <link rel="stylesheet" href="css/todo.css">
 </head>
 <body>
+  
+ <div class="container"><span></span>
   <h1 id="main_header">Todo App</h1>
-  <div class="grid_container">
-    <input id="input_todo" type="text" placeholder="Enter Todo here">
-  <input id="todo_date" type="date">
+  <p id="dashboard" style="display: inline-block;"><a href="dashboard.html">DASHBOARD</a></p>
+  <!-- <button class="undo_btn" onclick=" displayContainer.innerHTML = undo;">Undo</button> -->
+  <div class="grid_container grid__item">
+    <input id="input_todo" type="text" placeholder="Enter your name">
+  <input id="todo_date" type="date" >
   <button class="btn_todo" onclick="toDoLest();">Add</button>
   </div>
 
-  <div class="todo_container grid_container"></div>
 
+ </div>
   <script src="js/toDo.js"></script>
 </body>
 </html>
